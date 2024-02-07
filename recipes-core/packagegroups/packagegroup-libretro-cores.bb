@@ -15,7 +15,6 @@ LIBRETRO_TARGET_PLATFORMS ?= " \
     pc \
     pc98 \
     ps2 \
-    psx \
     saturn \
     sms \
     snes \
@@ -36,7 +35,6 @@ PACKAGECONFIG[ngc] = ",,,,packagegroup-libretro-ngc"
 PACKAGECONFIG[pc98] = ",,,,packagegroup-libretro-pc98"
 PACKAGECONFIG[pc] = ",,,,packagegroup-libretro-pc"
 PACKAGECONFIG[ps2] = ",,,,packagegroup-libretro-ps2"
-PACKAGECONFIG[psx] = ",,,,packagegroup-libretro-psx"
 PACKAGECONFIG[saturn] = ",,,,packagegroup-libretro-saturn"
 PACKAGECONFIG[sms] = ",,,,packagegroup-libretro-sms"
 PACKAGECONFIG[snes] = ",,,,packagegroup-libretro-snes"

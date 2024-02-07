@@ -10,6 +10,7 @@ LIBRETRO_GIT_REPO = "github.com/libretro/pcsx_rearmed.git"
 
 PREFFERED_DYNAMIC_RECOMPILER ?= "lightrec"
 PREFFERED_DYNAMIC_RECOMPILER:arm32 = "ari64"
+PREFFERED_DYNAMIC_RECOMPILER:arm64 = "ari64"
 
 PREFFERED_BUILTIN_GPU ?= "${@bb.utils.contains('TUNE_FEATURES', 'neon', 'neon', 'peops', d)}"
 PREFFERED_BUILTIN_GPU:arm64 = "unai"

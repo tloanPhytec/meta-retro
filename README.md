@@ -1,3 +1,9 @@
+## PHYTEC Notes
+A fork of the official OpenEmbedded/Yocto Project layer for Meta-Retro - Targeting PHYTEC's BSP-Yocto-Ampliphy-AM62x-PD23.2.0
+
+
+
+## ORIGINAL NOTES
 ## OpenEmbedded / Yocto software layer for RetroArch and libretro cores
 
 This layer provides RetroArch front-end and libretro cores emulators
